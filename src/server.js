@@ -29,7 +29,7 @@ app.use((req,res,next)=> {
 })
 
 //midleware responsavel em gerenciar o cors da aplicacao crossdomain
-app.use(cors())
+app.use(cors());
 
 /*Midleware que ajuda o servidor a 
 *  entender requisicoes no formato JSON
